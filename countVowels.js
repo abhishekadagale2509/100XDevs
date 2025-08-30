@@ -36,6 +36,24 @@ module.exports = countVowels;
 
 module.exports = countVowels;
  */
+
+
+
+/*function countVowels(str) {
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    let count = 0;
+
+    for (let char of str.toLowerCase()) {
+        if (vowels.includes(char)) {  // use .includes instead of .has
+            count++;
+        }
+    }
+
+    return count; // return the final count
+}
+
+console.log(countVowels('abhi'));  // Output: 2 (a, i)
+*/
 console.log(countVowels("Hello World"));  // 3  (e, o, o)
 console.log(countVowels("AEIOU"));        // 5
 console.log(countVowels("xyz"));          // 0
